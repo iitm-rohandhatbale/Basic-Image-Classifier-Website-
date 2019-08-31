@@ -13,8 +13,8 @@ Follow following steps to use the above code:
 * Download weights from [here](https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU)
 * Prepare a bin folder in Darkflow and download above weights(yolo.weights) in the that bin folder.
 
-*```javascript
-from darkflow.net.build import TFNet
+ ```python
+from darkflow.net.build import TFNet,
 
 options = {"model": "cfg/yolo.cfg", 
            "load": "bin/yolo.weights", 
